@@ -69,6 +69,7 @@ class IndexController extends Controller {
         $Verify->entry();
     } */
     public function index(){
+        echo 'Hello World!';die;
         $goods = M('goods');
         $where = "1=1";
         $name = I('name');
